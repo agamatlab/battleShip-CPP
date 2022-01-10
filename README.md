@@ -25,11 +25,11 @@
 	 
 *	 Oxlarla idarə etdikdə isə:
  
-  1) Daha çətin sintaksislə qarşı-qarşıya qalıram;
-  2) Nəticədə uşağın belə oynaya biləcəyi interfeys;
-  3) Seçimləri daha rahat gözdən keçirmək və
-  dəyərləndirmək imkanı;
-  4) Səhvləri daha açıq qavramaq və görmək bacarığı və s;
+    1) Daha çətin sintaksislə qarşı-qarşıya qalıram;
+    2) Nəticədə uşağın belə oynaya biləcəyi interfeys;
+    3) Seçimləri daha rahat gözdən keçirmək və
+    dəyərləndirmək imkanı;
+    4) Səhvləri daha açıq qavramaq və görmək bacarığı və s;
 
 * Xoş görünən və rəng kodlaşdırılmış GameBoard;
   - WASD və Oxların ikisinə də dəstək;
