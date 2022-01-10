@@ -17,7 +17,7 @@ int main()
 	srand(time(NULL));
 
 	enterence(); // GUI
-	setUPGame(); // İnittiallize && Fill Arrays
+	setUPGame(); // İnittiallize && Fill Arraysssss
 	manageShips(); // Mode Seçimi && Gəmi Yerləşməsi
 
 	while (true)
