@@ -14,9 +14,28 @@ using namespace std;
 
 int main()
 {
-	srand(time(NULL));
+	FILE* file;
+	unsigned int seed = time(NULL);
+	srand(seed);
 
-	enterence(); // GUIjjj
+	fopen_s(&file, "seeds.txt", "a");
+
+	if (file) {
+		int lenSeed = numLength(seed);
+		char* seedChar = new char[lenSeed] {};
+		for (size_t i = 0; seed != 0; i++)
+		{
+
+			seedChar[lenSeed - i - 1] = seed % 10 + 48;
+			seed /= 10;
+		}
+
+		fwrite(seedChar, sizeof(char), lenSeed, file);
+		fputc('\n', file);
+		fclose(file);
+	}
+
+	enterence(); // GUI
 	setUPGame(); // İnittiallize && Fill Arrays
 	manageShips(); // Mode Seçimi && Gəmi Yerləşməsi
 

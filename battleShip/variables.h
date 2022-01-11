@@ -42,7 +42,7 @@ struct Ship {
 struct Properties {
 	int* shipCount = new int[SHIPTYPECOUNT] {};
 	Ship** ships = nullptr;
-	int* guessCoordinates = new int[COORDINATES]{};
+	int* guessCoordinates = new int[COORDINATES]{SIZEWBORDER / 2, SIZEWBORDER / 2};
 	char** gameBoard = new char* [SIZEWBORDER] {};
 };
 

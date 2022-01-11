@@ -1086,10 +1086,8 @@ void checkWin()
 
 void setUPGame()
 {
-	// Hər iki oyunçunun fundemental dəyişənləri İnitiallize edilir.
+	// Hər iki oyunçunun fundemental dəyişənləri İnitiallize  edilir.
 	setUpArray(Player);
 	setUpArray(Enemy);
 
-	Player->guessCoordinates[0] = SIZEWBORDER / 2;
-	Player->guessCoordinates[1] = SIZEWBORDER / 2;
 }
